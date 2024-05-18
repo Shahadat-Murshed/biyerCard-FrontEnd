@@ -13,6 +13,12 @@
             integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH"
             crossorigin="anonymous"
         />
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+        <link
+            href="https://fonts.googleapis.com/css2?family=Cormorant+Upright:wght@300;400;500;600;700&display=swap"
+            rel="stylesheet"
+        />
         <link rel="stylesheet" href="./assets/css/styles.css" />
     </head>
     <body>
@@ -36,19 +42,79 @@
                 </div>
             </div>
         </header>
+        <!-- *The Hero Section* -->
         <section id="home" class="hero-section">
-            <div class="hero-content">
-                <h2 class="hero-title">Welcome to Our Wedding</h2>
-                <p class="hero-subtitle">Join us in celebrating the love of Shahadat & Fareha</p>
+            <div class="hero-content mt-5 pt-5">
+                <h2 class="hero-title mt-5">Shahadat&nbsp;<span id="name-divisor">|</span>&nbsp;Fareha</h2>
+                <p class="hero-subtitle">The Beginning of togetherness</p>
             </div>
         </section>
-        <section id="home" class="hero-section">
-            <div class="hero-content">
-                <h2 class="hero-title">Welcome to Our Wedding</h2>
-                <p class="hero-subtitle">Join us in celebrating the love of Shahadat & Fareha</p>
+        <!-- *The Timer Section* -->
+        <section id="the-wedding" class="wedding-section">
+            <div class="container">
+                <h2 class="section-title mt-5">The Wedding</h2>
+                <div id="countdown" class="d-flex mt-5 justify-content-center align-items-end flex-wrap gap-5">
+                    <!--# Days #-->
+                    <div class="d-flex justify-content-center flex-column">
+                        <div class="d-flex justify-content-between">
+                            <div class="time-box">
+                                <span id="days-1" class="time"></span>
+                            </div>
+                            <div class="time-box">
+                                <span id="days-2" class="time"></span>
+                            </div>
+                        </div>
+                        <div>
+                            <span class="label">Days</span>
+                        </div>
+                    </div>
+                    <!--# Hours #-->
+                    <div class="d-flex justify-content-center flex-column">
+                        <div class="d-flex justify-content-between">
+                            <div class="time-box">
+                                <span id="hours-1" class="time"></span>
+                            </div>
+                            <div class="time-box">
+                                <span id="hours-2" class="time"></span>
+                            </div>
+                        </div>
+                        <div>
+                            <span class="label">Hours</span>
+                        </div>
+                    </div>
+                    <!--# Minutes #-->
+                    <div class="d-flex justify-content-center flex-column">
+                        <div class="d-flex justify-content-between">
+                            <div class="time-box">
+                                <span id="minutes-1" class="time"></span>
+                            </div>
+                            <div class="time-box">
+                                <span id="minutes-2" class="time"></span>
+                            </div>
+                        </div>
+                        <div>
+                            <span class="label">Minutes</span>
+                        </div>
+                    </div>
+                    <!--# Seconds #-->
+                    <div class="d-flex justify-content-center flex-column">
+                        <div class="d-flex justify-content-between">
+                            <div class="time-box">
+                                <span id="seconds-1" class="time"></span>
+                            </div>
+                            <div class="time-box">
+                                <span id="seconds-2" class="time"></span>
+                            </div>
+                        </div>
+                        <div>
+                            <span class="label">Seconds</span>
+                        </div>
+                    </div>
+                </div>
+                <h2 class="section-subtitle mt-4">till</h2>
+                <h2 class="section-subtitle">31st May, 2024</h2>
             </div>
         </section>
-
         <script
             src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
             integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
