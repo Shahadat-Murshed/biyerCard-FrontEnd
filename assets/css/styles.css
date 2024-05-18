@@ -183,9 +183,9 @@ header h1 {
     line-height: normal;
 }
 .blessed-section {
-    padding: 60px 0;
-    padding-top: 0px;
     text-align: center;
+    padding: 60px 0;
+    padding-top: 0;
 }
 
 .blessed-section-title {
@@ -230,4 +230,55 @@ header h1 {
 .intro-image {
     border-radius: 30px;
     height: 422px;
+}
+
+/** location Section Styles **/
+#location {
+    font-family: "Cormorant Upright", serif;
+    background: url("../images/background.png");
+    background-color: #000;
+    line-height: normal;
+}
+.location-section {
+    padding: 60px 0;
+    padding-top: 0px;
+}
+.location-card-title {
+    font-size: 40px;
+    font-weight: bold;
+    color: #e2d381;
+}
+.location-card {
+    background: url("../images/bg-card-light.png") repeat;
+    background-color: #000;
+    opacity: 100%;
+    box-shadow: rgba(226, 211, 129, 0.4) 5px 5px, rgba(226, 211, 129, 0.3) 10px 10px, rgba(226, 211, 129, 0.2) 15px 15px,
+        rgba(226, 211, 129, 0.1) 20px 20px, rgba(226, 211, 129, 0.05) 25px 25px;
+}
+
+.location-card-address {
+    font-size: 26px;
+    font-weight: bold;
+    color: #fff;
+}
+
+.location-card-text {
+    font-size: 20px;
+    color: #fff;
+}
+
+.location-button {
+    font-size: 22px;
+    font-weight: bold;
+    color: #333333;
+    background-color: #e2d381;
+    border: #000;
+}
+
+.location-button:hover {
+    font-size: 22px;
+    font-weight: bold;
+    color: #fff;
+    background-color: #000000;
+    border: 1px solid #e2d381;
 }
