@@ -13,6 +13,10 @@ body {
     background-color: #000 !important;
 }
 
+.section-divider {
+    border-bottom: 1px solid #ccc; /* Add a border bottom */
+}
+
 /** header styles **/
 
 #header {
@@ -134,7 +138,7 @@ header h1 {
     background-color: #000;
 }
 .section-title {
-    font-size: 36px;
+    font-size: 40px;
     margin-bottom: 20px;
     color: #fff;
 }
@@ -169,4 +173,61 @@ header h1 {
     font-size: 26px;
     color: #666;
     width: 50px;
+}
+
+/** Blessed Section Styles **/
+
+#meet-the-blessed {
+    background: url("../images/background.png");
+    background-color: #000;
+    line-height: normal;
+}
+.blessed-section {
+    padding: 60px 0;
+    padding-top: 0px;
+    text-align: center;
+}
+
+.blessed-section-title {
+    font-family: "Cormorant Upright", serif;
+    font-size: 40px;
+    color: #fff;
+}
+.blessed-section-subtitle {
+    font-family: "Cormorant Upright", serif;
+    font-size: 20px;
+    margin-bottom: 30px;
+    color: #fff;
+}
+
+.person {
+    margin-bottom: 10px;
+}
+
+.blessed-label {
+    font-family: "Cormorant Upright", serif;
+    font-size: 40px;
+    color: #e2d381;
+    margin-bottom: 0;
+    font-weight: bold;
+}
+
+.blessed-name {
+    font-weight: bold;
+    font-family: "Cormorant Upright", serif;
+    font-size: 30px;
+    color: #fff;
+    margin-bottom: 0;
+}
+
+.blessed-parent-name {
+    font-family: "Cormorant Upright", serif;
+    font-size: 26px;
+    color: #817c7c;
+    margin-bottom: 0;
+}
+
+.intro-image {
+    border-radius: 30px;
+    height: 422px;
 }
