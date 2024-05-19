@@ -211,6 +211,9 @@ header h1 {
     margin-bottom: 0;
     font-weight: bold;
 }
+#header-h1 {
+    text-decoration: none !important;
+}
 
 .blessed-name {
     font-weight: bold;
@@ -240,8 +243,7 @@ header h1 {
     line-height: normal;
 }
 .location-section {
-    padding: 60px 0;
-    padding-top: 0px;
+    padding: 0px;
 }
 .location-card-title {
     font-size: 40px;
@@ -281,4 +283,38 @@ header h1 {
     color: #fff;
     background-color: #000000;
     border: 1px solid #e2d381;
+}
+
+footer {
+    background: url("../images/background.png") repeat;
+    background-color: #000;
+    font-size: 18px;
+    font-weight: bold;
+    padding: 20px 0;
+}
+
+@media (max-width: 768px) {
+    .bride-intro {
+        margin-top: 1.5rem !important;
+    }
+
+    .nav-item {
+        margin: 0 1rem !important;
+    }
+    .nav-item-middle {
+        margin: 0 !important;
+    }
+    .mobile-none {
+        display: none !important;
+    }
+
+    .location-card {
+        background: url("../images/bg-card-light.png") repeat;
+        background-color: #000;
+        opacity: 100%;
+        box-shadow: rgba(226, 211, 129, 0.4) 2px 2px;
+    }
+    .footer-text {
+        text-align: center !important;
+    }
 }
